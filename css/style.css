@@ -1,0 +1,1667 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Aclonica', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* all-section-container */
+.main-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.sub-container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/* header */
+.zoomics-header {
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+/* hamburger-icon */
+.hamburger i {
+    color: #232735;
+    font-size: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* navgition-bg */
+.zoomics-nav {
+    margin-top: 3%;
+    width: 90%;
+    height: auto;
+    background-color: rgba(0, 0, 255, 0.8);
+    text-align: left;
+    padding: 50px;
+    border-radius: 10px;
+    z-index: 999;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    display: none;
+}
+
+.zoomics-nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.zoomics-nav ul li {
+    width: 100%;
+    height: 50px;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+/* navgition-text */
+.zoomics-nav ul li a {
+    font-size: 22px;
+    text-align: left;
+    color: white;
+    width: 100%;
+    padding: 20px 0px;
+    cursor: pointer;
+}
+
+/* navgition-cros-icon */
+.crose-icon {
+
+    text-align: right;
+    margin-bottom: 30px;
+    margin-top: -40px;
+    margin-right: -40px;
+
+}
+
+.crose-icon i {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.crose-icon i:hover {
+    color: red;
+}
+
+.zoomics-nav ul li:hover {
+    background-color: #fff;
+
+}
+
+.zoomics-nav ul li a:hover {
+    color: black;
+
+}
+
+/* start-hero-section */
+.hero-section {
+    display: flex;
+    flex-direction: row;
+    padding-top: 150px;
+}
+
+.hero-first-img-box {
+    width: 17%;
+
+}
+
+.hero-first-img-box img:nth-child(1) {
+    width: 100%;
+}
+
+.hero-first-img-box img:nth-child(2) {
+    width: 75%;
+    margin-top: -30%;
+    margin-left: 50%;
+}
+
+.hero-text {
+    width: 49%;
+    padding-left: 7%;
+}
+
+.hero-text h1 {
+    font-size: 8.4em;
+    background-image: url("../zoomics-imgs/text-bg.svg");
+    background-repeat: no-repeat;
+    background-position: 89% 102%;
+
+}
+
+.hero-last-img-box {
+    width: 33%;
+    position: relative;
+    margin-top: -70px;
+}
+
+.hero-last-img-box img:nth-child(2) {
+    width: 100%;
+    height: auto;
+}
+
+.hero-last-img-box img:nth-child(1) {
+    width: 55%;
+    height: auto;
+    position: absolute;
+    top: -15%;
+    left: -22%;
+}
+
+.hero-button button {
+    margin-top: 70px;
+    background-color: #F5F500;
+    border-radius: 10px;
+    padding: 20px;
+    width: 283px;
+    height: 67px;
+    border: none;
+    font-size: 24px;
+    color: black;
+    transition: all 0.3s, background 0.5s, border 0.5s, border-radius 0.5s, box-shadow 0.5s;
+    box-shadow: rgba(0, 0, 0, 1) 3px 3px 0px 0px;
+}
+
+.hero-button button:hover,
+.release-first-container button:hover {
+    box-shadow: rgba(0, 0, 0, 1) 7px 7px 0px 0px;
+}
+
+.b-icon {
+    margin-right: 10px;
+}
+
+
+/* stop-hero-section */
+/* start-video-section */
+.video-section {
+    margin-top: 200px;
+    max-width: 100%;
+    max-height: 800px;
+    padding-top: 225px;
+    padding-bottom: 270px;
+    border-radius: 50px;
+    background-image: url("../zoomics-imgs/Rectangle\ 9.svg");
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: contain;
+
+}
+
+.video-section img:nth-child(3) {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+
+.video-data {
+    padding-left: 270px;
+}
+
+.video-data h2 {
+    color: #fff;
+    font-size: 95px;
+
+}
+
+.video-play {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+.video-play h4 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.video-box {
+    width: 50%;
+    position: absolute;
+    top: 140px;
+    left: 25%;
+    border-radius: 20px;
+    display: none;
+    text-align: right;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.video-box i,
+.super-hero-video {
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.video-box i:hover,
+.super-hero-video i:hover {
+    color: red;
+}
+
+.video-section img:nth-child(4) {
+    width: 23%;
+    position: absolute;
+    bottom: -10%;
+    right: 5%;
+}
+
+/* stop-video-section */
+
+/* popular-comic-section */
+.popular-comic {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 180px;
+
+}
+
+.popular-comic h2, .supper-hero-similar h2 {
+    padding-bottom: 30px;
+    font-size: 90px;
+    color: black;
+    text-align: center;
+    background-image: url("../zoomics-imgs/text-bg.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 102%;
+}
+
+.popular-comic-contant {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* popular-comic-&-super-hero */
+.popular-comic .popular-comic-contant ul,
+.superhero-content ul,
+.data-toggle-content-ul ul {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4%;
+    padding-bottom: 50px;
+}
+
+.popular-comic-contant ul li,
+.superhero-content ul li,
+.data-toggle-content-ul ul li {
+    font-size: 20px;
+    cursor: pointer;
+    color: #8D93A3;
+}
+
+.popular-comic-contant ul li:nth-child(1),
+.superhero-content ul li:nth-child(1),
+.data-toggle-content-ul ul li:nth-child(1)  {
+
+    color: black;
+}
+
+/* popular-comic-&-super-hero */
+
+
+
+.all-comic-itm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.all-comic-1st-row,
+.all-comic-2st-row,
+.comon-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.cmon-itm {
+    width: 30%;
+    height: auto;
+    position: relative;
+}
+
+.cmon-itm img {
+    width: 100%;
+    height: auto;
+}
+
+.exp-more-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.exp-more-button button {
+    margin-top: 50px;
+    background-color: #F5F500;
+    border-radius: 10px;
+    padding: 20px;
+    width: 235px;
+    height: 67px;
+    border: none;
+    font-size: 24px;
+    color: black;
+    transition: all 0.3s, background 0.5s, border 0.5s, border-radius 0.5s, box-shadow 0.5s;
+    box-shadow: rgba(0, 0, 0, 1) 3px 3px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exp-more-button button:hover {
+    box-shadow: rgba(0, 0, 0, 1) 7px 7px 0px 0px;
+}
+
+.cmon-itm button {
+    left: 0;
+    right: 0;
+    bottom: 4px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    ;
+    z-index: 999;
+    height: 80px;
+    border: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.cmon-itm i {
+    margin-left: 10%;
+}
+
+.cmon-itm i:hover {
+    color: #F5F500;
+}
+
+.upcoming-comic-itm,
+.weekly-best-comic-itm,
+.most-popular-comic-itm {
+    display: none;
+}
+
+.new-tag {
+    height: 40px;
+    background-color: #F5F500;
+    color: black;
+    width: 80px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px 0 0 50px;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    text-align: center;
+}
+
+/* superhero-series-section */
+.superhero-series-section {
+    margin-top: 200px;
+    padding-top: 200px;
+    background-image: url("../zoomics-imgs/zap-1601678_1920\ 1.svg");
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+}
+
+.inner-superhero-series-section {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.inner-superhero-series-section h2 {
+    font-size: 100px;
+    text-align: center;
+    margin-top: -200px;
+}
+
+.all-super-hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+}
+
+.all-super-hero-content-1st-row,
+.all-super-hero-content-2st-row {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: row;
+    gap: 30px;
+}
+
+.all-super-hero-content-1st-row-1st-box {
+    width: 50%;
+    position: relative;
+}
+
+.super-hero-img {
+    width: 100%;
+
+}
+
+.demo-video {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    z-index: 90;
+
+}
+
+.demo-video img {
+    height: 30px;
+    width: 30px;
+}
+
+.demo-video h4 {
+    color: white;
+    font-size: 20px;
+}
+
+.upcoming-toggle-control,
+.weekly-best-toggle-control,
+.most-popular-toggle-control {
+    display: none;
+}
+
+.super-hero-video {
+    position: absolute;
+    z-index: 99;
+    left: 10%;
+    right: 10%;
+    top: 10%;
+    display: none;
+    text-align: right;
+}
+
+/* new-Release-section */
+.new-Release-section {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    width: 100%;
+    padding-top: 200px;
+}
+
+.release-headers {
+    padding-left: 13.3%;
+    background-image: url("../zoomics-imgs/text-bg.svg");
+    background-repeat: no-repeat;
+    background-size: 680px 200px;
+    background-position: 80% -12%;
+}
+
+.release-headers h4 {
+    font-size: 40px;
+    color: #FF0000;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.release-headers h2 {
+    font-size: 90px;
+    color: #000000;
+
+}
+
+.release-data-container {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+
+.release-first-container,
+.release-last-container {
+    width: 50%;
+}
+
+.img-box-release-section-one img:nth-child(1) {
+    width: 100%;
+    height: auto;
+}
+
+.img-box-release-section-two {
+    width: 100%;
+    position: relative;
+
+}
+
+.img-box-release-section-two img:nth-child(1) {
+    position: absolute;
+    top: -26%;
+    right: 10%;
+}
+
+.release-last-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+
+.release-last-img {
+    width: 100%;
+
+}
+
+.img-box-release-section-one img:nth-child(2) {
+    margin-top: -95px;
+    margin-left: -10px;
+}
+
+.release-button {
+    width: 95%;
+    display: flex;
+    justify-content: end;
+
+}
+
+.release-first-container button {
+    margin-left: -10%;
+    background-color: #F5F500;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 345px;
+    height: 77px;
+    border: none;
+    font-size: 24px;
+    color: black;
+    transition: all 0.3s, background 0.5s, border 0.5s, border-radius 0.5s, box-shadow 0.5s;
+    box-shadow: rgba(0, 0, 0, 1) 3px 3px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer-section */
+.newslatter-bg-img {
+    background-image: url("../zoomics-imgs/text-bg.svg");
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    padding-bottom: 190px;
+    background-position: 73% 27%;
+    background-size: 686px 175px;
+}
+
+.newslatter {
+    max-width: 100%;
+    max-height: 617px;
+    display: flex;
+    padding: 70px;
+    align-items: center;
+    background-color: rgba(0, 0, 255, 0.8);
+    border-radius: 50px;
+    gap: 8.7%;
+    position: relative;
+}
+
+.man-img {
+    width: 38%;
+}
+
+.man-img img {
+    max-width: 100%;
+    margin-top: -210px;
+}
+
+.footer-text {
+    max-width: 50%;
+}
+
+.footer-text img {
+    position: absolute;
+    bottom: -99px;
+    right: 0;
+}
+
+.footer-text h4 {
+    color: #F5F500;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+}
+
+.footer-text h2 {
+    color: #FFF;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.footer-text button, .sp-pdf-button button {
+    background-color: #F5F500;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 255px;
+    height: 77px;
+    border: none;
+    font-size: 24px;
+    color: black;
+    transition: all 0.3s, background 0.5s, border 0.5s, border-radius 0.5s, box-shadow 0.5s;
+    box-shadow: rgba(0, 0, 0, 1) 3px 3px 0px 0px;
+    margin-top: 50px;
+}
+
+.footer-text button:hover, .sp-pdf-button button:hover {
+    box-shadow: rgba(0, 0, 0, 1) 7px 7px 0px 0px;
+}
+
+.footer-data,
+.copy-right-inner {
+    max-width: 1170px;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    padding-bottom: 70px;
+
+}
+
+.footer-logo {
+    width: 30%;
+}
+
+.footer-data-text {
+    display: flex;
+    width: 53%;
+    gap: 80px;
+}
+
+.footer-text-two {
+    max-width: 75%;
+}
+
+.footer-so-icon {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.footer-so-icon img {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-text-two h4,
+.footer-con h4 {
+    font-size: 18px;
+    color: #232735;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.footer-text-two h5,
+.footer-con h5 {
+    font-size: 16px;
+    color: #7B8195;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.copyright-section {
+    width: 100%;
+    border-top: 1px solid #E1E1E2;
+    padding-top: 34px;
+
+}
+
+.copy-right-inner {
+    justify-content: space-between;
+}
+
+.privacy-terms {
+    max-width: 290px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.copy-right-inner h5,
+.privacy-terms h6 {
+    font-size: 16px;
+    color: #73798E;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+}
+.load-more-itm, .load-more-itm-tow{
+    display: none;
+    width: 100%;
+}
+
+/* single-page-comic-css */
+.single-page-comics-detail{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    padding-top: 100px;
+}
+.single-page-main-img{
+    width: 40%;
+    height: auto;
+   
+}
+.single-page-main-img img:nth-child(1){
+    width: 100%;
+    height: auto;
+}
+.single-page-main-img img:nth-child(2){
+    max-width: 266px;
+    height: 200px;
+    margin-left: -120px;
+    margin-top: -160px;
+}
+.single-page-main-text{
+    width: 50%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 50px;
+}
+.single-page-main-text h3{
+    font-size: 70px;
+    color: #000000;
+}
+.single-page-main-text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #7B8195;
+    font-family: 'DM Sans', sans-serif;
+   
+}
+.sp-pdf-button{
+    width: 80%;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.sp-pdf-button button{
+    max-width: 308px;
+}
+.love-icon{
+    font-size: 30px;
+    margin-top: 46px;
+}
+.sp-pdf-button img{
+    margin-top: 46px;
+}
+/* data-toggle-content-ul  */
+
+.data-toggle-content-ul ul{
+    justify-content: flex-start;
+}
+.data-toggle-containt p{
+    color: #7B8195;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+    display: none;
+}
+.data-toggle-containt p:nth-child(1){
+    display: block;
+}
+.similar-cm-section{
+    padding-top: 90px;
+    padding-bottom:40px ;
+}
+.similar-cm-header h3{
+    font-size: 90px;
+    background-image: url("../zoomics-imgs/text-bg.svg");
+    background-repeat: no-repeat;
+    background-position: 29% 14%;
+    padding-bottom: 60px;
+}
+.lol-ig-ps{
+    width: 200px;
+    height: 150px;
+    margin-left: 90%; 
+    margin-top: 0px;
+}
+
+/* anime-details-section */
+
+.anime-details-section{
+    max-width: 100%;
+    padding-top: 420px;
+    padding-bottom: 70px;
+    margin-top: 100px;
+    background-image: url("../zoomics-imgs/Agent\ Ice\ Termite.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+border-radius: 50px;
+    position: relative;
+    padding-left: 80px;
+}
+.anime-details-section img:nth-child(3){
+    position: absolute;
+    bottom: -70px;
+    right: -109px ;
+    width: 266px;
+    height: 200px;
+    
+}
+
+.supper-hero-similar h2{
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+
+
+
+/*---------------------------------------------------- Responsive for tabs -----------------------------------------*/
+
+
+@media (min-width: 501px) and (max-width: 1025px) {
+    .exp-more-button button, .sp-pdf-button button {
+        margin-top: 45px;
+        width: 220px;
+        height: 60px;
+        border: none;
+        font-size: 20px;
+    }
+
+    /* hero-section */
+    .hero-section {
+        padding-top: 80px;
+    }
+
+    .hero-last-img-box {
+        margin-top: -30px;
+    }
+
+    .hero-text h1 {
+        font-size: 7vw;
+        background-size: 200px 200px;
+        background-position-x: 76%;
+        background-position-y: 80%;
+    }
+
+    .hero-button button {
+        margin-top: 10%;
+        padding: 10px;
+        width: 216px;
+        height: 57px;
+        font-size: 18px;
+    }
+
+    /*close- hero-section */
+
+
+    /* video-section */
+    .video-section {
+        padding-top: 12%;
+        padding-bottom: 12%;
+        margin-top: 100px;
+        border-radius: 0px;
+    }
+
+    .video-data {
+        padding-left: 100px;
+    }
+
+    .video-data h2 {
+        font-size: 6vw;
+
+    }
+
+    .video-play {
+        gap: 16px;
+        margin-top: 20px;
+    }
+
+    .video-play img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .video-play h4 {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .video-section img:nth-child(3) {
+        height: 150px;
+        width: 100%;
+        bottom: -55px;
+        right: 10px;
+    }
+
+    .video-box {
+        width: 70%;
+        top: 6px;
+        left: 20%;
+        border-radius: 10px;
+
+    }
+
+    /* popular-comic-section */
+
+    .popular-comic {
+        padding-top: 100px;
+    }
+
+    .popular-comic h2,
+    .inner-superhero-series-section h2,
+    .release-headers h2,
+    .single-page-main-text h3,
+    .similar-cm-header h3,
+    .supper-hero-similar h2 {
+        font-size: 54px;
+        padding-bottom: 20px;
+    }
+
+    .popular-comic .popular-comic-contant ul,
+    .superhero-content ul {
+        margin-top: 35px;
+        gap: 3%;
+        padding-bottom: 40px;
+    }
+
+    .all-comic-itm {
+        gap: 20px;
+    }
+
+    .all-comic-1st-row,
+    .all-comic-2st-row,
+    .comon-row {
+        gap: 20px;
+    }
+
+    .cmon-itm button  {
+        font-size: 14px;
+    }
+
+    .new-tag {
+        height: 35px;
+        width: 60px;
+        font-size: 14px;
+    }
+
+    /* close-popular-comic-section */
+    /* superhero-series-section */
+    .superhero-series-section {
+        margin-top: 0px;
+        padding-top: 300px;
+        background-position: -2% -3%;
+
+        background-size: 179px 179px;
+    }
+
+    /* 
+    release-section */
+
+    .new-Release-section {
+        padding-top: 100px;
+    }
+
+    .img-box-release-section-two img:nth-child(2) {
+        width: 80%;
+    }
+
+    .new-Release-section {
+        gap: 47px;
+    }
+
+
+    .img-box-release-section-two img:nth-child(1) {
+        position: absolute;
+        top: -44%;
+        height: 150px;
+        right: 38%;
+        width: 150px;
+    }
+
+    .release-headers h4 {
+        font-size: 27px;
+    }
+
+    .release-first-container button {
+        max-width: 300px;
+        height: 65px;
+        margin-top: -10px;
+        font-size: 18px;
+    }
+
+    .img-box-release-section-one img:nth-child(2) {
+        height: 230px;
+        width: 230px;
+    }
+
+
+    /* footer */
+    .newslatter-bg-img {
+        padding-top: 85px;
+        background-size: 385px 175px;
+        padding-bottom: 120px;
+    }
+   
+    .footer-text h4 {
+        margin-bottom: 25px;
+        font-size: 20px;
+    }
+
+    .footer-text h2 {
+        font-size: 45px;
+    }
+
+    .footer-text button {
+        max-width: 200px;
+        height: 67px;
+        font-size: 19px;
+        margin-top: 17px 
+    }
+
+    .man-img img {
+        max-width: 100%;
+        margin-top: -145px;
+    }
+
+    .footer-text img {
+
+        bottom: -83px;
+        right: 0;
+        left: 42%;
+        height: 150px;
+        width: 227px;
+    }
+
+   
+    .footer-data{
+        flex-direction: column;
+        gap: 40px;
+       }
+       .footer-data-text {
+        gap: 20px;
+       }
+       .footer-logo, .footer-data-text, .footer-so-icon {
+        width: 100%;
+       text-align: center;
+       }
+       .footer-data-text{
+        text-align: left;
+        justify-content: center;
+       }
+       .single-page-main-text p{
+        font-size: 12px;
+       }
+       .single-page-comics-detail {
+        gap: 40px;
+       }
+       .single-page-main-text{
+        gap: 0px;
+       }
+        .sp-pdf-button button{
+            font-size: 13px;
+        }
+        .love-icon{
+            font-size: 20px;
+        }
+        .sp-pdf-button img{
+            height: 20px !important;
+            width: 20px !important;
+        }
+        .sp-pdf-button{
+            gap: 22px;
+        }
+        .single-page-main-img img:nth-child(2) {
+            max-width: 180px;
+            height: 130px;
+            margin-left: 58px;
+            margin-top: -85px;
+        }
+        .lol-ig-ps{
+            display: none;
+        }
+        .supper-hero-similar h2{
+            margin-top: 100px;
+            margin-bottom: 10px;
+        }
+        .anime-details-section img:nth-child(3){
+           left: 34%;
+        }
+        .anime-details-section{
+            margin-bottom: 80px;
+        }
+}
+
+/*--------------------------------------------------------- Responsive for phone -----------------------------------------*/
+
+
+@media (min-width: 200px) and (max-width: 500px) {
+    .main-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .zoomics-nav {
+        margin-top: 72px;
+        padding: 10px;
+    }
+
+    .crose-icon {
+        margin-top: -2px;
+        margin-right: 0px;
+    }
+
+    .zoomics-nav ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: -27px;
+    }
+
+    /* hero-section */
+    .hero-section {
+        padding-top: 70px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-first-img-box {
+        width: 100%;
+    }
+
+    .hero-first-img-box img:nth-child(2) {
+        width: 75%;
+        margin-top: -18%;
+        margin-left: 11%;
+    }
+
+    .hero-last-img-box {
+        margin-top: 100px;
+        width: 100%;
+    }
+
+    .hero-last-img-box img:nth-child(1) {
+        left: 20%;
+    }
+
+    .hero-text {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .hero-text h1 {
+        font-size: 60px;
+        background-size: 200px 200px;
+        background-position-x: 76%;
+        background-position-y: 80%;
+    }
+
+    .hero-button button {
+        margin-top: 10%;
+        padding: 10px;
+        width: 216px;
+        height: 57px;
+        font-size: 18px;
+    }
+
+    /*close- hero-section */
+
+
+    /* video-section */
+    .video-section {
+        padding-top: 8%;
+        padding-bottom: 12%;
+        margin-top: 80px;
+        border-radius: 0px;
+    }
+
+    .video-data {
+        padding-left: 28px;
+    }
+
+    .video-data h2 {
+        font-size: 28px;
+
+    }
+
+    .video-play {
+        gap: 16px;
+        margin-top: 20px;
+    }
+
+    .video-play img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .video-play h4 {
+        font-size: 16px;
+    }
+
+    .video-section img:nth-child(3) {
+        height: 80px;
+        width: 100%;
+        bottom: -23px;
+        right: 10px;
+    }
+
+    .video-box {
+        width: 70%;
+        top: 6px;
+        left: 20%;
+        border-radius: 10px;
+
+    }
+
+    /* popular-comic-section */
+
+    .popular-comic, .testominel-section {
+        padding-top: 80px;
+    }
+
+    .popular-comic h2,
+    .inner-superhero-series-section h2,
+    .single-page-main-text h3,
+    .supper-hero-similar h2 {
+        font-size: 43px;
+        padding-bottom: 20px;
+    }
+
+    .popular-comic .popular-comic-contant ul,
+    .superhero-content ul, .popular-comic-contant ul, .superhero-content ul, .data-toggle-content-ul ul  {
+        margin-top: 10px;
+        gap: 3%;
+        padding-bottom: 30px;
+
+    }
+
+    .popular-comic-contant ul li,
+    .superhero-content ul li
+    .popular-comic-contant ul li, .superhero-content ul li, .data-toggle-content-ul ul li {
+        font-size: 13px;
+    }
+
+    .all-comic-itm,
+    .upcoming-comic-itm,
+    .all-super-hero-content {
+        gap: 20px;
+        align-items: center;
+
+    }
+
+    .all-comic-1st-row,
+    .all-comic-2st-row,
+    .comon-row,
+    .all-super-hero-content-1st-row,
+    .all-super-hero-content-2st-row {
+        gap: 20px;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .comon-row {
+        width: 82%;
+        padding-left: 9%;
+    }
+
+    .cmon-itm {
+        width: 100%;
+    }
+
+
+    .exp-more-button button {
+        margin-top: 45px;
+        width: 202px;
+        height: 55px;
+        border: none;
+        font-size: 18px;
+    }
+
+    /* close-popular-comic-section */
+
+
+    .superhero-series-section {
+        margin-top: 0px;
+        padding-top: 300px;
+        background-position: -2% -3%;
+
+        background-size: 179px 179px;
+    }
+
+    .all-super-hero-content-1st-row-1st-box {
+        width: 100%;
+    }
+
+    .all-super-hero-content-1st-row,
+    .all-super-hero-content-2st-row {
+        width: 100%;
+    }
+
+    .super-hero-video {
+        left: 1%;
+        right: 1%;
+        top: 5%;
+    }
+
+    .video {
+        height: 300px;
+    }
+
+    /* 
+    release-section */
+    .release-headers h2, .similar-cm-header h3 {
+        font-size: 34px;
+    }
+
+    .new-Release-section {
+        padding-top: 100px;
+    }
+
+    .img-box-release-section-two img:nth-child(2) {
+        width: 100%;
+    }
+
+    .new-Release-section {
+        gap: 70px;
+        padding-top: 80px;
+    }
+
+    .release-headers {
+        background-size: 200px;
+        padding-left: 0px;
+    }
+
+    .img-box-release-section-two img:nth-child(1) {
+        position: absolute;
+        top: -37%;
+        height: 150px;
+        right: 29%;
+        width: 150px;
+    }
+
+    .release-headers h4 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .release-first-container button {
+        max-width: 300px;
+        height: 65px;
+        margin-top: -10px;
+        font-size: 18px;
+    }
+
+    .img-box-release-section-one img:nth-child(2) {
+        height: 221px;
+        width: 220px;
+        margin-top: -93px;
+        margin-left: 20%;
+    }
+
+    .release-data-container {
+        gap: 20px;
+        flex-direction: column-reverse;
+
+    }
+
+    .release-first-container,
+    .release-last-container {
+        width: 100%;
+    }
+
+    .release-last-container {
+        gap: 20px;
+    }
+
+    .release-first-container button {
+        max-width: 260px;
+        height: 60px;
+        margin-top: -30px;
+        font-size: 17px;
+        margin-left: 0px;
+    }
+
+    .release-button {
+        width: 100%;
+
+        justify-content: center;
+    }
+
+
+
+    /* footer */
+    .newslatter-bg-img {
+        padding-top: 85px;
+        background-size: 385px 175px;
+        padding-bottom: 100px;
+    }
+    .newslatter {
+        flex-direction: column;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 0px;
+        padding-right: 0px;
+        align-items: flex-start;
+        border-radius: 20px;
+    }
+    .footer-text h4 {
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+
+    .footer-text h2 {
+        font-size: 45px;
+    }
+
+    .footer-text button {
+        max-width: 200px;
+        height: 67px;
+        font-size: 19px;
+        margin-top: 17px 
+    }
+    .man-img{
+        width: 100%;
+    }
+     .footer-text{
+        max-width: 100%;
+        padding: 10px;
+    }
+    .man-img img {
+        max-width: 100%;
+        margin-top: -145px;
+    }
+
+    .footer-text img {
+
+        bottom: -83px;
+        right: 0;
+        left: 20%;
+        height: 150px;
+        width: 227px;
+    }
+    .footer-text button{
+        margin-top: 20px;
+        width: 202px;
+    
+        border: none;
+        font-size: 18px;
+    }
+
+   .footer-data{
+    flex-direction: column;
+    gap: 40px;
+   }
+   .footer-data-text {
+    gap: 20px;
+   }
+   .footer-logo, .footer-data-text, .footer-so-icon {
+    width: 100%;
+   text-align: center;
+   }
+   .footer-data-text{
+    text-align: left;
+   }
+   .copy-right-inner.main-container {
+    flex-direction: column;
+  
+    align-items: center;
+    gap: 20px;
+}
+.load-more-itm{
+    width: 80%;
+}
+.load-more-itm-tow{
+    width: 100%;
+}
+
+/* cmx-single-page */
+.lol-ig-ps{
+    display: none;
+}
+.single-page-comics-detail{
+    flex-direction: column;
+}
+.single-page-main-img, .single-page-main-text{
+    width: 100%;
+}
+.love-icon{
+    font-size: 20px;
+}
+.sp-pdf-button img{
+    height: 20px !important;
+    width: 20px !important;
+}
+.sp-pdf-button{
+    gap: 22px;
+}
+.single-page-main-img img:nth-child(2) {
+    max-width: 180px;
+    height: 130px;
+    margin-left: 58px;
+    margin-top: -85px;
+}
+.single-page-main-text p{
+    font-size: 12px;
+   }
+   .single-page-comics-detail {
+    gap: 40px;
+   }
+   .single-page-main-text{
+    gap: 0px;
+   }
+    .sp-pdf-button button{
+        width: 230px;
+        height: 55px;
+        border: none;
+        font-size: 18px;
+        
+        margin-top: 30px;
+       
+
+    }
+    .data-toggle-containt p{
+        font-size: 12px;
+    }
+    .similar-cm-header h3{
+        padding-bottom: 20px;
+        background-size: 170px 60px;
+    }
+    .similar-cm-section {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .supper-hero-similar h2{
+        margin-bottom: 10px;
+        margin-top: 80px;
+    }
+    .anime-details-section {
+        max-width: 100%;
+        padding:0px;
+        margin: 0px;
+        background-size: contain;
+        border-radius: 20px;
+       
+    }
+    .anime-details-section img:nth-child(3){
+       left: 30%;
+       width: 155px;
+    height: 147px;
+    }
+    .video-container {
+        width: 100%;
+        height: 59vw;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+/*  */
+/* .container {
+    max-width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+.container-fluid {
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+} */
+
+
+
+
+
+
+
+
